@@ -1,0 +1,70 @@
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-05-18T13:24:01.992Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-05-19T16:24:55.293Z"}
+{"level":"info","message":"Port scan detection started","timestamp":"2024-05-19T16:37:16.717Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-05-19T16:37:16.717Z"}
+{"level":"info","message":"Port scan detection started","timestamp":"2024-05-19T16:50:29.711Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-05-19T16:50:29.711Z"}
+{"level":"info","message":"Port scan detection started","timestamp":"2024-05-19T16:50:53.944Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:13:28.862Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:46:04.309Z"}
+{"level":"error","message":"Error sending alert email","timestamp":"2024-06-03T09:46:04.309Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:47:34.532Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:48:09.131Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:48:37.679Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:48:40.466Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:48:45.821Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:49:16.505Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:49:29.425Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:49:33.411Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:51:16.685Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:51:18.264Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:52:21.143Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:52:23.586Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:52:50.785Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:54:38.074Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:56:52.675Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:56:54.512Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:57:08.896Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:57:17.605Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:57:56.446Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:58:57.297Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:59:14.612Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:59:29.529Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:59:31.574Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:59:34.976Z"}
+{"level":"error","message":"Error sending alert email","timestamp":"2024-06-03T09:59:34.976Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T09:59:47.122Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T10:01:46.822Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T10:01:50.025Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T10:02:09.058Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-03T18:56:09.897Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-05T20:15:35.211Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-05T20:15:37.450Z"}
+{"level":"error","message":"error occurred executing query object is not iterable (cannot read property Symbol(Symbol.iterator))","stack":"TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))\n    at executeQuery (file:///home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/models/alerts.js:9:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Anomalies.getAnomalies (file:///home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/models/alerts.js:28:30)\n    at async handleGetAnomalies (file:///home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/controllers/alerts.controller.js:40:24)","timestamp":"2024-06-05T20:15:37.450Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-05T20:16:36.130Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-05T20:17:03.315Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-05T20:33:06.740Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-05T20:33:13.088Z"}
+{"level":"error","message":"error occurred executing query pool.getConnection is not a function","stack":"TypeError: pool.getConnection is not a function\n    at executeQuery (file:///home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/models/alerts.js:8:39)\n    at Anomalies.getAnomalies (file:///home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/models/alerts.js:26:36)\n    at handleGetAnomalies (file:///home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/controllers/alerts.controller.js:40:40)\n    at Layer.handle [as handle_request] (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/layer.js:95:5)\n    at /home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/index.js:346:12)\n    at next (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/index.js:280:10)","timestamp":"2024-06-05T20:33:13.088Z"}
+{"level":"error","message":"An error occurred pool.getConnection is not a function","stack":"TypeError: pool.getConnection is not a function\n    at executeQuery (file:///home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/models/alerts.js:8:39)\n    at Anomalies.getAnomalies (file:///home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/models/alerts.js:26:36)\n    at handleGetAnomalies (file:///home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/controllers/alerts.controller.js:40:40)\n    at Layer.handle [as handle_request] (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/layer.js:95:5)\n    at /home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/index.js:346:12)\n    at next (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/index.js:280:10)","timestamp":"2024-06-05T20:33:13.088Z"}
+{"level":"error","message":"error occurred executing query pool.getConnection is not a function","stack":"TypeError: pool.getConnection is not a function\n    at executeQuery (file:///home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/models/alerts.js:8:39)\n    at Anomalies.getAnomalies (file:///home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/models/alerts.js:26:36)\n    at handleGetAnomalies (file:///home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/controllers/alerts.controller.js:40:40)\n    at Layer.handle [as handle_request] (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/layer.js:95:5)\n    at /home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/index.js:346:12)\n    at next (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/index.js:280:10)","timestamp":"2024-06-05T20:33:13.088Z"}
+{"level":"error","message":"An error occurred pool.getConnection is not a function","stack":"TypeError: pool.getConnection is not a function\n    at executeQuery (file:///home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/models/alerts.js:8:39)\n    at Anomalies.getAnomalies (file:///home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/models/alerts.js:26:36)\n    at handleGetAnomalies (file:///home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/controllers/alerts.controller.js:40:40)\n    at Layer.handle [as handle_request] (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/layer.js:95:5)\n    at /home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/index.js:346:12)\n    at next (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/index.js:280:10)","timestamp":"2024-06-05T20:33:13.088Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-05T20:34:40.536Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-05T20:35:19.919Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-05T20:37:43.900Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-05T20:38:03.069Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-05T20:38:05.446Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query: SQLITE_ERROR: near \"=\": syntax error","stack":"Error: SQLITE_ERROR: near \"=\": syntax error","timestamp":"2024-06-05T20:38:05.446Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-05T20:38:17.311Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query: SQLITE_ERROR: near \"=\": syntax error","stack":"Error: SQLITE_ERROR: near \"=\": syntax error","timestamp":"2024-06-05T20:38:17.311Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-05T20:38:26.208Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-05T20:40:00.004Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-05T20:40:04.897Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-05T20:40:09.020Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-05T20:40:19.771Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-05T20:40:22.349Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-05T20:40:29.688Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-05T20:40:37.067Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-05T20:40:39.122Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-05T20:40:42.658Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T11:37:19.295Z"}
