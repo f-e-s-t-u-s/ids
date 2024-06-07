@@ -7,3 +7,44 @@
 {"level":"error","message":"An error occurred pool.getConnection is not a function","stack":"TypeError: pool.getConnection is not a function\n    at executeQuery (file:///home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/models/alerts.js:8:39)\n    at Anomalies.getAnomalies (file:///home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/models/alerts.js:26:36)\n    at handleGetAnomalies (file:///home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/controllers/alerts.controller.js:40:40)\n    at Layer.handle [as handle_request] (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/layer.js:95:5)\n    at /home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/index.js:346:12)\n    at next (/home/nixcraft/Documents/DEV/nrf/ADMIN_DASHBOARD/server/node_modules/express/lib/router/index.js:280:10)","timestamp":"2024-06-05T20:33:13.088Z"}
 {"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query: SQLITE_ERROR: near \"=\": syntax error","stack":"Error: SQLITE_ERROR: near \"=\": syntax error","timestamp":"2024-06-05T20:38:05.446Z"}
 {"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query: SQLITE_ERROR: near \"=\": syntax error","stack":"Error: SQLITE_ERROR: near \"=\": syntax error","timestamp":"2024-06-05T20:38:17.311Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: no such table: users","stack":"Error: SQLITE_ERROR: no such table: users","timestamp":"2024-06-06T12:45:52.233Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T12:45:52.233Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: no such table: users","stack":"Error: SQLITE_ERROR: no such table: users","timestamp":"2024-06-06T13:12:13.960Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T13:12:13.960Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: no such table: users","stack":"Error: SQLITE_ERROR: no such table: users","timestamp":"2024-06-06T13:12:13.960Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T13:12:13.960Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: no such table: users","stack":"Error: SQLITE_ERROR: no such table: users","timestamp":"2024-06-06T13:23:09.553Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T13:23:09.553Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: no such table: users","stack":"Error: SQLITE_ERROR: no such table: users","timestamp":"2024-06-06T13:23:09.553Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T13:23:09.553Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: no such table: users","stack":"Error: SQLITE_ERROR: no such table: users","timestamp":"2024-06-06T13:23:09.553Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T13:23:09.553Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: no such table: users","stack":"Error: SQLITE_ERROR: no such table: users","timestamp":"2024-06-06T13:26:11.703Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T13:26:11.703Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: no such table: users","stack":"Error: SQLITE_ERROR: no such table: users","timestamp":"2024-06-06T13:26:40.942Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T13:26:40.942Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: near \"DESC\": syntax error","stack":"Error: SQLITE_ERROR: near \"DESC\": syntax error","timestamp":"2024-06-06T13:28:02.642Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T13:28:02.642Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: near \"SHOW\": syntax error","stack":"Error: SQLITE_ERROR: near \"SHOW\": syntax error","timestamp":"2024-06-06T13:28:28.707Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T13:28:28.707Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: near \"SHOW\": syntax error","stack":"Error: SQLITE_ERROR: near \"SHOW\": syntax error","timestamp":"2024-06-06T13:28:52.182Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T13:28:52.182Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: near \"SHOW\": syntax error","stack":"Error: SQLITE_ERROR: near \"SHOW\": syntax error","timestamp":"2024-06-06T13:28:52.182Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T13:28:52.182Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: near \"SHOW\": syntax error","stack":"Error: SQLITE_ERROR: near \"SHOW\": syntax error","timestamp":"2024-06-06T13:28:52.182Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T13:28:52.182Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: no such table: users","stack":"Error: SQLITE_ERROR: no such table: users","timestamp":"2024-06-06T14:04:31.202Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T14:04:31.202Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: no such table: users","stack":"Error: SQLITE_ERROR: no such table: users","timestamp":"2024-06-06T14:04:48.913Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T14:04:48.913Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: no such table: users","stack":"Error: SQLITE_ERROR: no such table: users","timestamp":"2024-06-06T14:05:21.624Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T14:05:21.624Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: no such table: users","stack":"Error: SQLITE_ERROR: no such table: users","timestamp":"2024-06-06T14:06:39.549Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T14:06:39.549Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: no such table: users","stack":"Error: SQLITE_ERROR: no such table: users","timestamp":"2024-06-06T14:14:45.813Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T14:14:45.813Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T14:20:35.788Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-07T02:01:14.429Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-07T02:01:14.429Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-07T02:23:18.172Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-07T02:23:18.172Z"}

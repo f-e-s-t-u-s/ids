@@ -8,16 +8,35 @@ function DashboardCard07() {
 
 // get anomalies
 useEffect(() => {
-  const getAnomalies = async() => {
-    const response = await axios.get('http://localhost:3000/api/anomalies?packets_type=1')
-    if(response.status === 200){
-      const data = response.data.message.slice(0,21);
-
-      setData(data)
+  const getAnomalies = async () => {
+    try {
+      const response = await axios.get('http://localhost:3000/api/anomalies?packets_type=1');
+      if (response.status === 200) {
+        const data = response.data.message;
+        console.log(data);
+        const lastData = data.slice(Math.max(data.length - 20, 0)); // Get the last 5 anomalies
+        setData(lastData);
+      }
+    } catch (error) {
+      console.error('Error fetching anomalies:', error);
     }
-  }
-  getAnomalies()
-},[])
+  };
+
+  // Initial fetch
+  getAnomalies();
+
+  // Fetch data every 10 seconds
+  const intervalId = setInterval(getAnomalies, 10000);
+
+  // Cleanup interval on component unmount
+  return () => clearInterval(intervalId);
+}, []);
+
+// covert time
+const convertTime = (time) => {
+  const date = new Date(time);
+  return date.toLocaleString()
+}
 
 
   return (
@@ -78,7 +97,7 @@ useEffect(() => {
                     </div>
                   </td>
                   <td className="p-2">
-                    <div className="text-center">{anomaly.time_stamp}</div>
+                    <div className="text-center">{convertTime(anomaly.time_stamp)}</div>
                   </td>
                   <td className="p-2">
                     <div className="text-center text-emerald-500">{anomaly.ipsrc}</div>

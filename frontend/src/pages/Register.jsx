@@ -1,8 +1,53 @@
-import React from 'react'
+import React, { useState } from 'react'
+import axios from 'axios';
+import toast, {Toaster} from 'react-hot-toast';
 
 function Register() {
+
+  const [formData, setFormData] = useState({
+    fullName: '',
+    companyName: '',
+    email: '',
+    password: ''
+  });
+  const [loading, setLoading] = useState(false);
+
+
+  // handle input change
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.id]: e.target.value });
+  }
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    try {
+      const data = {
+        name: formData.fullName,
+        company_name: formData.companyName,
+        email: formData.email,
+        password: formData.password
+      }
+     const response = await axios.post('http://localhost:3000/api/register', data);
+
+     if(response.status === 200){
+      toast.success("User registered successfully");
+      setTimeout(() => {
+        window.location.href = '/login';
+      }, 2000);
+     }
+      console.log(response);
+    } catch (error) {
+      console.log(error);
+    } finally{
+      setLoading(false)
+    }
+  }
+
+
   return (
     <section className="relative">
+      <Toaster />
     <div className="max-w-6xl mx-auto px-4 sm:px-6">
       <div className="pt-32 pb-12 md:pt-40 md:pb-20">
 
@@ -35,25 +80,25 @@ function Register() {
             <div className="flex flex-wrap -mx-3 mb-4">
               <div className="w-full px-3">
                 <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="full-name">Full Name <span className="text-red-600">*</span></label>
-                <input id="full-name" type="text" className="form-input w-full text-gray-300" placeholder="First and last name" required />
+                <input onChange={handleChange} id="fullName" type="text" className="form-input w-full text-gray-300" placeholder="First and last name" required value={formData.fullName} />
               </div>
             </div>
             <div className="flex flex-wrap -mx-3 mb-4">
               <div className="w-full px-3">
                 <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="company-name">Company Name <span className="text-red-600">*</span></label>
-                <input id="company-name" type="text" className="form-input w-full text-gray-300" placeholder="Your company or app name" required />
+                <input onChange={handleChange} value={formData.companyName} id="companyName" type="text" className="form-input w-full text-gray-300" placeholder="Your company or app name" required />
               </div>
             </div>
             <div className="flex flex-wrap -mx-3 mb-4">
               <div className="w-full px-3">
                 <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="email">Work Email <span className="text-red-600">*</span></label>
-                <input id="email" type="email" className="form-input w-full text-gray-300" placeholder="you@yourcompany.com" required />
+                <input onChange={handleChange} value={formData.email} id="email" type="email" className="form-input w-full text-gray-300" placeholder="you@yourcompany.com" required />
               </div>
             </div>
             <div className="flex flex-wrap -mx-3 mb-4">
               <div className="w-full px-3">
                 <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="password">Password <span className="text-red-600">*</span></label>
-                <input id="password" type="password" className="form-input w-full text-gray-300" placeholder="Password (at least 10 characters)" required />
+                <input onChange={handleChange} value={formData.password} id="password" type="password" className="form-input w-full text-gray-300" placeholder="Password (at least 10 characters)" required />
               </div>
             </div>
             <div className="text-sm text-gray-500 text-center">
@@ -61,7 +106,9 @@ function Register() {
             </div>
             <div className="flex flex-wrap -mx-3 mt-6">
               <div className="w-full px-3">
-                <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-full">Sign up</button>
+                <button  onClick={handleSubmit} className="btn text-white bg-purple-600 hover:bg-purple-700 w-full">
+                  {loading ? 'Loading...' : 'Sign up'}
+                </button>
               </div>
             </div>
           </form>

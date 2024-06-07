@@ -23,7 +23,7 @@ class Users {
       `;
       const params = [email];
       const response = await executeQuery(query, params);
-      return response;
+      return response ? response[0] : null;
     } catch (error) {
       logger.error('Error occurred executing query', error);
       throw error;
@@ -81,6 +81,18 @@ class Users {
       throw error;
     }
   }
+  async createUserCode(userId, code) {
+    const query = "INSERT INTO codes (userId,code) VALUES (?,?)";
+    const result = await executeQuery(query, [userId, code]);
+    return result;
+  };
+
+  // delete old codes
+  async deleteVerifyOldCodes(userId) {
+    const query = "DELETE FROM forgotpasswordcodes WHERE user_id = ?";
+    const result = await executeQuery(query, [userId]);
+    return result;
+  };
 }
 
 export default Users;

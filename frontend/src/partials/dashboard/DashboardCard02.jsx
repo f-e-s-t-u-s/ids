@@ -1,8 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import LineChart from '../../charts/LineChart01';
-import Icon from '../../images/icon-02.svg';
-import EditMenu from '../../components/DropdownEditMenu';
+
 
 // Import utilities
 import { tailwindConfig, hexToRGB } from '../../utils/Utils';
@@ -73,7 +71,7 @@ function DashboardCard02() {
         </header>
         <h2 className="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-2">Alerts sent</h2>
         <div className="flex items-start">
-          <div className="text-3xl font-bold text-slate-800 dark:text-slate-100 mr-2">200</div>
+          <div className="text-3xl font-bold text-slate-800 dark:text-slate-100 mr-2">13</div>
           <div className="text-sm font-semibold text-white px-1.5 bg-amber-500 rounded-full">-14%</div>
         </div>
       </div>

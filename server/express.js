@@ -15,8 +15,7 @@ const cors_options = {
       ? []
       : ['http://localhost:5173'],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
-  credentials: true,
-};
+  allowedHeaders: ['Content-Type', 'Authorization'],};
 
 
 

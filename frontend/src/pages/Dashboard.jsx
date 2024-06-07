@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Sidebar from '../partials/Sidebar';
 import WelcomeBanner from '../partials/dashboard/WelcomeBanner';
 import FilterButton from '../components/DropdownFilter';
@@ -10,6 +10,14 @@ import DashboardCard07 from '../partials/dashboard/DashboardCard07';
 import DashboardCard12 from '../partials/dashboard/DashboardCard12';
 
 function Dashboard() {
+
+  // check if user is logged in
+  useEffect(() => {
+    if (!sessionStorage.getItem('token')) {
+      window.location.href = '/login';
+    }
+  
+  },[])
 
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
@@ -36,8 +44,7 @@ function Dashboard() {
 
               {/* Right: Actions */}
               <div className="grid grid-flow-col sm:auto-cols-max justify-start sm:justify-end gap-2">
-                {/* Filter button */}
-                <FilterButton />
+              
                 {/* Datepicker built with flatpickr */}
                 <Datepicker />
                              
@@ -53,7 +60,9 @@ function Dashboard() {
               {/* Line chart (alerts sent) */}
               <DashboardCard02 />  
               {/* Doughnut chart (Top threats) */}
-              {/* <DashboardCard06 /> */}
+             <div>
+             {/* <DashboardCard06 /> */}
+             </div>
               {/* Table (Rcent anomalies) */}
               <DashboardCard07 />
             

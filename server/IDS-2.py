@@ -101,6 +101,19 @@ http_connections = defaultdict(list)
 http_time_threshold = 5  # seconds
 http_count_threshold = 20  # open connections per source IP in threshold time
 
+# emails sender enpoint
+email_enpoint = 'http://localhost:3000/api/sendAlert'
+
+def send_email(subject, message):
+    try:
+        response = requests.post(email_endpoint, json={'subject': subject, 'message': message})
+        if response.status_code == 200:
+            print("Email sent successfully")
+        else:
+            print(f"Failed to send email: {response.status_code}")
+    except Exception as e:
+        print(f"Error sending email: {e}")
+        
 def is_syn_flood(ip):
     current_time = time.time()
     syn_packets[ip] = [ts for ts in syn_packets[ip] if current_time - ts < syn_time_threshold]

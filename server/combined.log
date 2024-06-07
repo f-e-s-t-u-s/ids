@@ -68,3 +68,158 @@
 {"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-05T20:40:39.122Z"}
 {"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-05T20:40:42.658Z"}
 {"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T11:37:19.295Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T12:45:52.233Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: no such table: users","stack":"Error: SQLITE_ERROR: no such table: users","timestamp":"2024-06-06T12:45:52.233Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T12:45:52.233Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T12:57:52.526Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T12:58:01.749Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T12:58:37.001Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T12:58:38.833Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T12:59:38.271Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T12:59:40.798Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:05:34.709Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:06:13.945Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:06:16.755Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:08:21.398Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:08:49.630Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:09:04.655Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:09:26.355Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:09:28.556Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:09:31.693Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:09:33.874Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:09:36.584Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:09:45.121Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:09:46.868Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:11:22.264Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:11:23.721Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:11:26.541Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:12:13.960Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: no such table: users","stack":"Error: SQLITE_ERROR: no such table: users","timestamp":"2024-06-06T13:12:13.960Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T13:12:13.960Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: no such table: users","stack":"Error: SQLITE_ERROR: no such table: users","timestamp":"2024-06-06T13:12:13.960Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T13:12:13.960Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:23:09.553Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: no such table: users","stack":"Error: SQLITE_ERROR: no such table: users","timestamp":"2024-06-06T13:23:09.553Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T13:23:09.553Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: no such table: users","stack":"Error: SQLITE_ERROR: no such table: users","timestamp":"2024-06-06T13:23:09.553Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T13:23:09.553Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: no such table: users","stack":"Error: SQLITE_ERROR: no such table: users","timestamp":"2024-06-06T13:23:09.553Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T13:23:09.553Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:26:11.703Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: no such table: users","stack":"Error: SQLITE_ERROR: no such table: users","timestamp":"2024-06-06T13:26:11.703Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T13:26:11.703Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:26:40.942Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: no such table: users","stack":"Error: SQLITE_ERROR: no such table: users","timestamp":"2024-06-06T13:26:40.942Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T13:26:40.942Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:27:41.109Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:27:44.125Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:27:45.348Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:27:47.060Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:27:48.455Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:27:50.631Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:27:53.115Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:27:58.886Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:28:01.555Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:28:02.642Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: near \"DESC\": syntax error","stack":"Error: SQLITE_ERROR: near \"DESC\": syntax error","timestamp":"2024-06-06T13:28:02.642Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T13:28:02.642Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:28:23.274Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:28:25.664Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:28:28.707Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: near \"SHOW\": syntax error","stack":"Error: SQLITE_ERROR: near \"SHOW\": syntax error","timestamp":"2024-06-06T13:28:28.707Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T13:28:28.707Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T13:28:52.182Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: near \"SHOW\": syntax error","stack":"Error: SQLITE_ERROR: near \"SHOW\": syntax error","timestamp":"2024-06-06T13:28:52.182Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T13:28:52.182Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: near \"SHOW\": syntax error","stack":"Error: SQLITE_ERROR: near \"SHOW\": syntax error","timestamp":"2024-06-06T13:28:52.182Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T13:28:52.182Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: near \"SHOW\": syntax error","stack":"Error: SQLITE_ERROR: near \"SHOW\": syntax error","timestamp":"2024-06-06T13:28:52.182Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T13:28:52.182Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T14:04:25.552Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T14:04:26.820Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T14:04:29.256Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T14:04:31.202Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: no such table: users","stack":"Error: SQLITE_ERROR: no such table: users","timestamp":"2024-06-06T14:04:31.202Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T14:04:31.202Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T14:04:48.913Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: no such table: users","stack":"Error: SQLITE_ERROR: no such table: users","timestamp":"2024-06-06T14:04:48.913Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T14:04:48.913Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T14:05:21.624Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: no such table: users","stack":"Error: SQLITE_ERROR: no such table: users","timestamp":"2024-06-06T14:05:21.624Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T14:05:21.624Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T14:06:35.299Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T14:06:36.269Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T14:06:39.549Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: no such table: users","stack":"Error: SQLITE_ERROR: no such table: users","timestamp":"2024-06-06T14:06:39.549Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T14:06:39.549Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T14:14:45.813Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Error occurred executing query SQLITE_ERROR: no such table: users","stack":"Error: SQLITE_ERROR: no such table: users","timestamp":"2024-06-06T14:14:45.813Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T14:14:45.813Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T14:14:53.089Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T14:18:43.093Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T14:18:44.996Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T14:18:55.479Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T14:19:22.480Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T14:19:30.793Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T14:19:40.667Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T14:20:06.939Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T14:20:15.553Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T14:20:35.788Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-06T14:20:35.788Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T14:20:49.380Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T14:21:44.568Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T14:21:46.151Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-06T19:03:41.241Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T01:18:24.549Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T01:29:23.271Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T01:29:28.430Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T01:29:31.289Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T01:29:34.414Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T01:29:37.395Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T01:29:45.173Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T01:29:52.696Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T01:29:56.957Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T01:30:03.019Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T01:30:16.025Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T01:30:17.838Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T01:30:24.540Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T01:30:29.267Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T01:30:30.265Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T01:48:02.331Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T01:48:07.614Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T01:48:08.592Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T01:59:21.423Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T02:01:13.445Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T02:01:14.429Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-07T02:01:14.429Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-07T02:01:14.429Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T02:23:18.172Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-07T02:23:18.172Z"}
+{"level":"error","message":"an error occured","timestamp":"2024-06-07T02:23:18.172Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T02:27:01.547Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T02:29:20.405Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T02:35:37.879Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T02:35:40.203Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T02:35:42.574Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T03:21:28.551Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T03:21:38.539Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T03:21:40.199Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T03:21:53.952Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T03:22:37.776Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T03:22:40.863Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T03:22:42.262Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T03:22:45.903Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T03:22:49.934Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T03:23:11.613Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T03:23:28.799Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T03:23:43.421Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T03:23:59.553Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T03:24:04.930Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T03:24:12.763Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T03:24:22.308Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T03:24:29.454Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T03:24:34.442Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T03:24:36.800Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T03:24:40.547Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T03:24:45.685Z"}
+{"level":"info","message":"Server started on http://localhost:3000","timestamp":"2024-06-07T09:09:21.217Z"}

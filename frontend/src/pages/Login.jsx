@@ -1,8 +1,49 @@
-import React from 'react'
+import React, { useState } from 'react'
+import axios from 'axios';
+import toast, { Toaster } from 'react-hot-toast';
 
 function Login() {
+  // kytunimafa@mailinator.com
+  const [formData, setFormData] = useState({
+    email: '',
+    password: ''
+  });
+  
+  const [loading, setLoading] = useState(false);
+
+  // handle input change
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.id]: e.target.value });
+  }
+
+  // handle submot
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    try {
+     const response = await axios.post('http://localhost:3000/api/login', formData);
+
+     if(response.status === 200){
+      toast.success("Logged in successfully");
+      sessionStorage.setItem("user", JSON.stringify(response.data.user));
+      sessionStorage.setItem("token", response.data.token);
+      setTimeout(() => {
+        window.location.href = '/';
+      }, 2000);
+     }
+      console.log(response);
+    } catch (error) {
+      console.log(error);
+      if(error.response.status === 400){
+        toast.error("Incorrect email or password");
+      }
+    } finally{
+      setLoading(false)
+    }
+  }
   return (
     <section className="relative">
+      <Toaster />
     <div className="max-w-6xl mx-auto px-4 sm:px-6">
       <div className="pt-32 pb-12 md:pt-40 md:pb-20">
 
@@ -35,13 +76,13 @@ function Login() {
             <div className="flex flex-wrap -mx-3 mb-4">
               <div className="w-full px-3">
                 <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="email">Email</label>
-                <input id="email" type="email" className="form-input w-full text-gray-300" placeholder="you@yourcompany.com" required />
+                <input value={formData.email} onChange={handleChange} id="email" type="email" className="form-input w-full text-gray-300" placeholder="you@yourcompany.com" required />
               </div>
             </div>
             <div className="flex flex-wrap -mx-3 mb-4">
               <div className="w-full px-3">
                 <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="password">Password</label>
-                <input id="password" type="password" className="form-input w-full text-gray-300" placeholder="Password (at least 10 characters)" required />
+                <input value={formData.password}  onChange={handleChange} id="password" type="password" className="form-input w-full text-gray-300" placeholder="Password (at least 10 characters)" required />
               </div>
             </div>
             <div className="flex flex-wrap -mx-3 mb-4">
@@ -57,7 +98,9 @@ function Login() {
             </div>
             <div className="flex flex-wrap -mx-3 mt-6">
               <div className="w-full px-3">
-                <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-full">Sign in</button>
+                <button  onClick={handleSubmit} className="btn text-white bg-purple-600 hover:bg-purple-700 w-full">
+                  {loading ? 'Loading...' : 'Sign in'}
+                </button>
               </div>
             </div>
           </form>
